@@ -1,0 +1,29 @@
+﻿{
+  "responseId": "f9d674b7-9cba-4fce-98c6-534784cc5b33-e6604cc1",
+  "queryResult": {
+    "queryText": "hi, this is Naveen",
+    "action": "input.welcome",
+    "parameters": { "membername": "Naveen" },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Hi! How are you doing?",
+    "fulfillmentMessages": [ { "text": { "text": [ "Hi! How are you doing?" ] } } ],
+    "outputContexts": [
+      {
+        "name": "projects/dse-hackathon-brianics-c1cce/agent/sessions/a4253939-4e1b-3039-0f15-093b013fd555/contexts/reviewchallenges-followup",
+        "lifespanCount": 1,
+        "parameters": {
+          "membername": "Naveen",
+          "membername.original": "Naveen"
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/dse-hackathon-brianics-c1cce/agent/intents/f12024fe-4596-4bbd-afdf-2aebbc0b0ed0",
+      "displayName": "Welcome.Go365"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en"
+  },
+  "originalDetectIntentRequest": { "payload": {} },
+  "session": "projects/dse-hackathon-brianics-c1cce/agent/sessions/a4253939-4e1b-3039-0f15-093b013fd555"
+}
